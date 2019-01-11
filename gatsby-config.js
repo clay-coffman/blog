@@ -3,16 +3,19 @@ const pxtorem = require('postcss-pxtorem')
 
 module.exports = {
   siteMetadata: {
-    url: 'https://lumen.netlify.com',
-    title: 'Blog by John Doe',
-    subtitle:
-      'Pellentesque odio nisi, euismod in, pharetra a, ultricies in, diam. Sed arcu.',
+    url: 'https://www.claymcoffman.com',
+    title: "clay's blog",
+    subtitle: 'a place to organize my thoughts and write things down.',
     copyright: '© All rights reserved.',
     disqusShortname: '',
     menu: [
       {
         label: 'Articles',
         path: '/',
+      },
+      {
+        label: 'Things I Like',
+        path: '/bookmarks/',
       },
       {
         label: 'About me',
@@ -24,13 +27,11 @@ module.exports = {
       },
     ],
     author: {
-      name: 'John Doe',
-      email: '#',
-      telegram: '#',
-      twitter: '#',
-      github: '#',
-      rss: '#',
-      vk: '#',
+      name: 'Clay Coffman',
+      email: 'claymcoffman@gmail.com',
+      twitter: 'Clay_Coffman',
+      github: 'clay-coffman',
+      linkedin: 'clay-coffman-68487566',
     },
   },
   plugins: [
